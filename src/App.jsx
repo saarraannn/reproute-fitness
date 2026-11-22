@@ -14,6 +14,11 @@ export default function App() {
     setCatalogueState('loading');
     try {
       await new Promise((resolve) => window.setTimeout(resolve, 450));
+      // Add ?simulateError=1 to the URL to test the error and retry state once.
+      if (new URLSearchParams(window.location.search).get('simulateError') === '1') {
+        window.history.replaceState({}, '', window.location.pathname);
+        throw new Error('Simulated catalogue request failure');
+      }
       // Local data is loaded asynchronously to demonstrate a request lifecycle.
       const { programs } = await import('./data/programs.js');
       setCatalogue(programs);
