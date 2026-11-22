@@ -28,7 +28,7 @@ npm run preview
 - Search, category and experience-level filters, and sorting
 - Capacity and experience eligibility rules
 - Shared booking state and localStorage persistence
-- Controlled form, validation and derived 10% deposit calculation
+- Controlled form using a fictional nickname, validation and derived 10% deposit calculation
 - Simulated asynchronous catalogue loading, retry, and empty states
 - Responsive layout and keyboard focus styles
 
@@ -65,4 +65,4 @@ RepRoute
 ```
 
 ## Limitations
-All programme data is illustrative and local. Loading and booking are simulated. There is no backend, authentication, payment gateway, live capacity service, or health assessment. Use fictional test details only; do not enter sensitive personal or health information.
+All programme data is illustrative and local. Loading and booking are simulated. There is no backend, authentication, payment gateway, live capacity service, or health assessment. Use a fictional nickname only; do not enter real names, contact details or sensitive health information.
