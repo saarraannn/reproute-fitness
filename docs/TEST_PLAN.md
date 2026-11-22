@@ -4,6 +4,7 @@ Use the deployed app or `npm run dev`. Record the actual result and date when ea
 
 | ID | Test | Steps | Expected result |
 |---|---|---|---|
+| T00 | Simulated load failure | Open `/?simulateError=1` | Error state appears; click Try again and catalogue loads |
 | T01 | Home route | Open `/` | Header, hero, featured programmes and footer render |
 | T02 | Catalogue route | Open `/programs` | Ten programme records appear after the loading state |
 | T03 | Search | Search for `mobility` | Mobility Reset and Yoga Balance remain |
