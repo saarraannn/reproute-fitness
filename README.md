@@ -42,6 +42,7 @@ npm run preview
 - Choose Beginner for an Intermediate or Advanced programme.
 - Submit an incomplete or invalid form.
 - Search for a term with no matches and use Reset.
+- Open `/?simulateError=1` to display the catalogue error state, then use Try again.
 - Open an unknown `/programs/:id` route.
 - Open `/confirmation` without a saved booking.
 
